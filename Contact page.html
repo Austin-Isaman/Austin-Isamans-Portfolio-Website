@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Austin Isamans Portfolio</title>
+	
+	<style>
+	
+	body {
+		font-family: "Lato", sans-serif;
+		z-index: 1000;
+	}
+
+	.sidenav {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1001;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+
+	.sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	  z-index: 1000;
+	}
+
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	    z-index: 1000;
+	}
+
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
+	
+	</style>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+
+<body>
+
+<p style="position: absolute; text-align: center; padding-top: 52vh; left: 40vw; font-size: clamp(24px, 2vw + 1rem + 2vh, 25px); resize: none; line-height: 4vh;">
+Email: <br/>
+austinisaman5@gmail.com
+</p>
+
+<p style="position: absolute; text-align: center; padding-top: 62vh; left: 43.5vw; font-size: clamp(24px, 2vw + 1rem + 2vh, 25px); resize: none; line-height: 4vh;">
+Phone Number: <br/>
+(517)343-9132
+</p>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="#">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer, pointer-events: none;" onclick="openNav()">&#9776; Open Side Menu</span>
+
+
+
+<img class="header" id="Header-Image" style="position: absolute; left: 0%; top: 6%; pointer-events: none; z-index: 1;" width=100% height=45% src="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Header_image_contact.jpg">
+	 	
+<img class="header" id="Header-Image" style="position: absolute; left: 0%; top: 80%; pointer-events: none; z-index: 999;" width=100% height=20% src="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/bottom.png">
+
+
+	<script>
+	document.body.style.backgroundColor = "#c2c2c2";
+	
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	
+	
+	</script>
+	
+</body>
+
+</html>
