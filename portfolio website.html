@@ -62,12 +62,13 @@
 <body>
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(); appleDing.play();">&times;</a>
   <a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/portfolio%20website.html">Home</a>
+  <a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/About%20me%20page.html">About Me</a>
   <a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Contact%20page.html">Contact</a>
 </div>
 
-<span style="font-size:30px;cursor:pointer, pointer-events: none;" onclick="openNav()">&#9776; Open Side Menu</span>
+<span style="font-size:30px;cursor:pointer, pointer-events: none;" onclick="openNav(); appleDing.play();">&#9776; Open Side Menu</span>
 
 <img class="header" id="Header-Image" style="position: absolute; left: 0%; top: 80%; pointer-events: none; z-index: 999;" width=100% height=20% src="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/bottom.png">
 
@@ -76,6 +77,10 @@
 
 
 	<script>
+	
+	var appleDing = new Audio("https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/SWOOSH%205.mp3");
+
+	
 	document.body.style.backgroundColor = "#c2c2c2";
 	
 		function openNav() {
