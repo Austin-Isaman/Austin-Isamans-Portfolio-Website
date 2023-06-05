@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>English 11 portfolio Page</title>
+	
+	<style>
+	
+	body {
+		font-family: "Lato", sans-serif;
+		z-index: 1000;
+	}
+
+	.sidenav {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1001;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+
+	.sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	  z-index: 1000;
+	}
+
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	    z-index: 1000;
+	}
+
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
+	
+	</style>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(); appleDing.play();">&times;</a>
+  <a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/portfolio%20website.html">Home</a>
+  <a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/About%20me%20page.html">About Me</a>
+  <a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Contact%20page.html">Contact</a>
+  <a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Document%20page.html">Documents</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer, pointer-events: none;" onclick="openNav(); appleDing.play();">&#9776; Open Side Menu</span>
+
+<img class="header" id="Header-Image" style="position: absolute; left: 0%; top: 95%; pointer-events: none; z-index: 999;" width=100% height=20% src="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/bottom.png">
+
+<img class="header" id="Header-Image" style="position: absolute; left: 0%; top: 6%; pointer-events: none; z-index: 1;" width=100% height=45% src="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Header_Image_DP.png.jpg">
+	 	
+<p style="position: absolute; top: 58%; left: 34%; font-size: clamp(20px, 3vw + 1rem, 40px);">Programming Resume<a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Austin%20Isaman%20-%20Talent%20Portfolio%20Session%203%20Programming%20Resume%20(September%202%20-%2017505264.pdf">(Documents)</a></p>
+
+<p style="position: absolute; top: 64%; left: 38%; font-size: clamp(20px, 3vw + 1rem, 40px);">Cover Letter<a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Austin%20Isaman%20-%20Talent%20Portfolio%20Session%205%20Cover%20Letter%20(October%2027)%20-%2017505264.pdf">(Documents)</a></p>
+
+<p style="position: absolute; top: 70%; left: 36%; font-size: clamp(20px, 3vw + 1rem, 40px);">Thank You Email<a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Austin%20Isaman%20-%20Talent%20Portfolio%20Session%206%20Thank%20You%20Email%20(November%2010)%20-%2017505264.pdf">(Documents)</a></p>
+
+<p style="position: absolute; top: 76%; left: 31%; font-size: clamp(20px, 3vw + 1rem, 40px);">Work Example or Certification<a href="https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/Austin%20Isaman%20-%20Talent%20Portfolio%20Session%207%20Work%20Example%20or%20Certification%20(%20-%2017505264.pdf">(Documents)</a></p>
+
+
+
+	<script>
+	
+	var appleDing = new Audio("https://austin-isaman.github.io/Austin-Isamans-Portfolio-Website/SWOOSH%205.mp3");
+
+	
+	document.body.style.backgroundColor = "#c2c2c2";
+	
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	
+	</script>
+	
+</body>
+
+</html>
